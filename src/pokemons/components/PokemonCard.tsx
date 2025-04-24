@@ -22,7 +22,7 @@ export function PokemonCard({ pokemon }: Readonly<Props>) {
           <p className="pt-2 text-lg font-semibold text-gray-50 capitalize">{pokemon.name}</p>
           <p className="text-sm text-gray-100">Pokemon ID: {pokemon.id}</p>
           <div className="mt-5">
-            <Link href={`/dashboard/pokemon/${pokemon.id}`}
+            <Link href={`/dashboard/pokemons/${pokemon.name}`}
               className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100"
             >
               View Details
